@@ -1,2 +1,2 @@
 # Linux
-About of Linux security, directory, partition, etc.
+About of Linux security, directory, partition, mount, etc.
