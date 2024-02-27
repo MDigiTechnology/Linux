@@ -23,6 +23,10 @@
 
 6. unmount the partition if it's already mounted
 "sudo umount /dev/sdb1"
+7. Open and save file in fstab
+"sudo nano /etc/fstab"
+8. Add These lines ( for 1 each and every file system and 2 check file system )
+"/dev/sdb1      /VMS-STORAGE    ext4     defaults   1  2"
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/MDigiTechnology/Linux?tab=MIT-1-ov-file)
 
