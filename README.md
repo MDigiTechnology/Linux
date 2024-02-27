@@ -24,6 +24,7 @@
 6. unmount the partition if it's already mounted
 "sudo umount /dev/sdb1"
 
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/MDigiTechnology/Linux?tab=MIT-1-ov-file/)
 
 
 
