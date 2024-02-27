@@ -1,0 +1,11 @@
+sudo fsck.ext4 -y /dev/sdb1    # This command will check the ext4 filesystem on /dev/sdb1 for errors and attempt to fix them automatically (-y flag).
+sudo mkfs.ext4 /dev/sdb1    # mkfs command to create a new filesystem on the partition
+sudo mount -t ext4 /dev/sdb1 /media/VMS-STORAGE/ #This command should mount the ext4 filesystem on /dev/sdb1 to the directory /media/VMS-STORAGE/
+
+dmesg | tail #As suggested in the error message, check the dmesg logs for more information about the error.
+
+sudo umount /dev/sdb1 #unmount the partition if it's already mounted
+
+
+
+
